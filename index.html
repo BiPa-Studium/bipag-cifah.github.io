@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>BiPaG - CIFAH</title>
+    <script type="text/javascript" src="script.js" defer></script>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="news_and_list()">
+
+    <div class="content">
+
+        <header>
+            <a href="index.html"><img src="Logo - BiPaG.png" alt="Logo"></a>
+        </header>
+
+        <hr style="height:4px;border-width:0;color:rgb(238, 238, 238);background-color:rgb(238, 238, 238)">
+
+        <nav>
+            <p><a href="index.html">ACCUEIL</a></p>
+            <p><a href="about.html">CURSUS</a></p>
+            <p><a href="checklists.html">GUIDES PAR ANNÉE</a></p>
+            <p><a href="guides.html">GUIDES PAR THÈME</a></p>
+            <p><a href="faq.html">FAQ</a></p>
+            <p><a href="contact.html">CONTACT</a></p>
+        </nav>
+
+        <hr style="height:4px;border-width:0;color:rgb(238, 238, 238);background-color:rgb(238, 238, 238)">
+        <main>
+            <div class="text-main">
+                <h1>Accueil</h1>
+                <p>
+                    Bienvenue sur le site officiel du Cursus Intégré Franco-Allemand Histoire (CIFAH)!
+                    Ce site a pour but de vous accompagner tout au long de votre scolarité, avec des
+                    articles sur l’organisation du cursus, la méthodologie, les procédures administratives,
+                    ou plus largement toute question que vous pourriez vous poser!
+                </p>
+                <h2>Où commencer ? </h2>
+                    <input type="button" class="btn-full-width btn" value="Découvrir le cursus!"><br><br>
+                    <div class="container-btn">
+                        <p>Déjà admis, déjà étudiant?:</p>
+                        <input type="button" class="btn" value="Futur étudiant">
+                        <input type="button" class="btn" value="Licence 1">
+                        <input type="button" class="btn" value="Licence 2">
+                        <input type="button" class="btn" value="Licence 3">
+                    </div>
+                </div>
+                <aside>
+                    <h2 class="hidden">Checklist du moment</h2>
+                    <hr class="hidden">
+                    <div class="chklist_actual"></div>
+                    <h2>News</h2>
+                    <hr>
+                    <div class="news_loaded" id="news_loaded_id">
+                        <p>Chargement des news...</p>
+                    </div>
+                </aside>
+</main>
+        <footer>
+            <a href="https://www.uni-bielefeld.de/fakultaeten/geschichtswissenschaft/studium/studiengaenge/biparis/bachelor/"><img src="img/Logo_Uni_Bielefeld.jpg" alt=""></a>
+            <a href="https://www.dfh-ufa.org/fr/programmes/guide-des-etudes/143/Histoire?undefined#study_finder"><img src="img/Logo_UFA-DFH.jpg" alt=""></a>
+            <a href="https://odf.u-paris.fr/fr/offre-de-formation/double-licence-XAA/sciences-humaines-et-sociales-SHS/histoire-K4E6AYTM/double-licence-histoire-bachelor-geschichte-cursus-integre-histoire-allemand-avec-l-universite-de-bielefeld-IGXS1VPB.html"><img src="img/Logo_Paris_Cite.jpg" alt=""></a>
+        </footer>
+    </div>
+</body>
+
+</html>
